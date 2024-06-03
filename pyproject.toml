@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cps844"
+version = "0.1.0"
+description = ""
+authors = ["Gabriel Gazola Milan <gabriel.gazola@poli.ufrj.br>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+matplotlib = "^3.9.0"
+numpy = "^1.26.4"
+p-tqdm = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
